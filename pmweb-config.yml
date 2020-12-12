@@ -1,0 +1,16 @@
+spring:
+   profiles:
+      active:
+        - beta
+---
+
+spring:
+  profiles: beta
+  application:
+      name: pm-web
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Asd8711341
+    url: jdbc:mysql://101.200.216.156:3306/PhoneMark?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Hongkong
