@@ -11,6 +11,10 @@ logging:
     com.gsn.pm: debug
 # 数据源
 spring:
+  security:   # zuul网关服务的用户认证
+    user:
+      name: admin
+      password: a
   cloud:
     stream:
       kafka:
