@@ -4,7 +4,7 @@ spring:
         - beta
 ---
 server:
-  port: 8181
+  port: 8090
 
 mybatis:
   configuration:
