@@ -5,6 +5,8 @@ spring:
 ---
 
 spring:
+  main:
+    allow-bean-definition-overriding=true:
   profiles: beta
   application:
       name: pm-web
