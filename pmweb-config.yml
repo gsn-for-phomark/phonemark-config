@@ -6,8 +6,6 @@ spring:
 
 spring:
   profiles: beta
-  application:
-      name: pm-web
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
