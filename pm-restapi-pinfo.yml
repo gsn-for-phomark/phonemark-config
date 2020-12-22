@@ -77,7 +77,7 @@ spring:
 #监控配置
 info:
   app.name: PM-RESTAPI-PINFO
-  company.name: yc
+  company.name: gsn
   build.artifactId: $project.artifactId$
   build.modelVersion: $project.modelVersion$
   version: $project.version$
