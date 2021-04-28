@@ -33,7 +33,7 @@ spring:
     stream:
       kafka:
         binder:
-          brokers: 1.15.83.26
+          brokers: 121.5.167.32
   # 数据源
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
@@ -65,7 +65,7 @@ spring:
     # 合并多个DruidDataSource的监控数据
     #useGlobalDataSourceStat=true
   redis:
-    host: 127.0.0.1
+    host: 1.15.83.26
     port: 6379
     #    password: 12345678
     pool:
@@ -81,6 +81,7 @@ info:
   build.artifactId: $project.artifactId$
   build.modelVersion: $project.modelVersion$
   version: $project.version$
+
 
 management:
   endpoints:
