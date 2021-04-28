@@ -28,7 +28,7 @@ spring:
     stream:
       kafka:
         binder:
-          brokers: 1.15.83.26
+          brokers: 121.5.167.32
 ---
 server:
  port: 7033
@@ -55,4 +55,4 @@ spring:
     stream:
       kafka:
         binder:
-          brokers: 1.15.83.26
+          brokers: 121.5.167.32
