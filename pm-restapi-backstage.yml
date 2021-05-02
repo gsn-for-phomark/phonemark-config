@@ -76,7 +76,7 @@ spring:
 
 #监控配置
 info:
-  app.name: PM-RESTAPI-BACKSTAGE
+  app.name: BACKSTAGE-ADMIN
   company.name: yc
   build.artifactId: $project.artifactId$
   build.modelVersion: $project.modelVersion$
