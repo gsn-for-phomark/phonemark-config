@@ -67,12 +67,7 @@ spring:
   redis:
     host: 1.15.83.26
     port: 6379
-    #    password: 12345678
-    pool:
-      max-idle: 8
-      min-idle: 0
-      max-active: 8
-      max-wait: -1
+
 
 #监控配置
 info:
